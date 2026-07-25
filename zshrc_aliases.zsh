@@ -1,6 +1,5 @@
 # Commandes générales
 alias c='clear'
-alias ls='ls -laG'
 alias ww='which'
 
 # Navigation
