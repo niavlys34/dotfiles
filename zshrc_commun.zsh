@@ -23,7 +23,7 @@ alias ..='cd ..'
 alias ...='cd ../..'
 alias h='cd ~'
 ## git
-alias gfl='git fetch && git log HEAD..origin/main --online'
+alias gfl='git fetch && git log HEAD..origin/main --oneline'
 
 # zshrc propre à la machine
 MY_HOST_NAME=$(hostname -s)
