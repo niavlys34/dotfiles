@@ -16,11 +16,14 @@ prompt pure
 source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # alias communs à toutes les machines
+## divers
 alias c='clear'
 alias ww='which'
 alias ..='cd ..'
 alias ...='cd ../..'
 alias h='cd ~'
+## git
+alias gfl='git fetch && git log HEAD..origin/main --online'
 
 # zshrc propre à la machine
 MY_HOST_NAME=$(hostname -s)
