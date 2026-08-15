@@ -8,22 +8,28 @@
 # echo "# zshrc local de $(hostname -s)" > $HOME/dotfiles/zshrc_$(hostname -s).zsh
 
 # pure
-fpath+=($HOME/.zsh/pure)
+fpath+=("$HOME/.zsh/pure")
 autoload -U promptinit; promptinit
 prompt pure
 
 # zsh-syntax-highlighting
-source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source "$HOME/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh"
 
 # alias communs à toutes les machines
 ## divers
-alias c='clear'
-alias ww='which'
-alias ..='cd ..'
-alias ...='cd ../..'
-alias h='cd ~'
+alias c="clear"
+alias ww="which"
+alias ..="cd .."
+alias ...="cd ../.."
+alias h="cd ~"
 ## git
-alias gfl='git fetch && git log HEAD..origin/main --oneline'
+alias gfl="git fetch && git log HEAD..origin/main --oneline"
+## message
+alias smsg="bash $HOME/dotfiles/fun/supermsg.sh"
+
+# chat et message
+bash $HOME/dotfiles/fun/aachat.sh 70
+smsg -w "host : $(hostname -s) - Miaou !"
 
 # zshrc propre à la machine
 MY_HOST_NAME=$(hostname -s)
