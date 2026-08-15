@@ -21,9 +21,9 @@
 
 # Définition des couleurs
 COULEURB="\033[44m\033[1;37m" # Fond bleu et texte blanc gras
-COULEURO="\033[43m\033[1;37m" # Fond jaune et texte blanc gras
+COULEURO="\033[43m\033[1;30m" # Fond jaune et texte blanc gras
 COULEURR="\033[41m\033[1;37m" # Fond rouge et texte blanc gras
-COULEURV="\033[42m\033[1;37m" # Fond vert et texte blanc gras
+COULEURV="\033[42m\033[1;30m" # Fond vert et texte blanc gras
 COULEURW="\033[47m\033[1;30m" # Fond blanc et texte noir gras
 COULEURU="\033[45m\033[1;37m" # Fond violet et texte blanc gras
 

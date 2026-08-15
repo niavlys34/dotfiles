@@ -17,11 +17,11 @@ source "$HOME/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh"
 
 # alias communs à toutes les machines
 ## divers
-alias c="clear"
+alias c="clear && smsg -v 'Un petit clear ne fait jamais de mal'"
 alias ww="which"
 alias ..="cd .."
 alias ...="cd ../.."
-alias h="cd ~"
+alias h="cd $HOME"
 ## git
 alias gfl="git fetch && git log HEAD..origin/main --oneline"
 ## message
