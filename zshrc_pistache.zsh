@@ -7,4 +7,4 @@ export PATH="$HOME/.local/bin:$PATH"
 alias ls="ls -la --color=auto"
 
 # message
-smsg -b "PISTACHE, SERVEUR IHM"
+smsg -o "PISTACHE, SERVEUR IHM"
