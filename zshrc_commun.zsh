@@ -26,6 +26,9 @@ alias h="cd $HOME"
 alias gfl="git fetch && git log HEAD..origin/main --oneline"
 ## message
 alias smsg="bash $HOME/dotfiles/fun/supermsg.sh"
+## edit zshrc
+alias editzc="nano $HOME/dotfiles/zshrc_commun.zsh"
+alias editzh="nano $HOME/dotfiles/zshrc_$(hostname -s).zsh"
 
 # chat et message
 bash $HOME/dotfiles/fun/aachat.sh 70
