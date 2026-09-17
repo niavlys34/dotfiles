@@ -14,8 +14,10 @@ alias ls="ls -laG"
 
     # edit zshrc (subl)
 alias sublzh="subl $HOME/dotfiles/zshrc_$(hostname -s).zsh"
+alias sublzc="subl $HOME/dotfiles/zshrc_commun.zsh"
 
     # VPN
+alias sublwg="subl /opt/local/etc/wireguard/wg0.conf"
 alias vpnup="sudo wg-quick up wg0"
 alias vpndn="sudo wg-quick down wg0"
 
