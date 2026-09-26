@@ -1,7 +1,7 @@
 # mise en place :
 # git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 # git clone https://github.com/zsh-users/zsh-syntax-highlighting.git "$HOME/.zsh/zsh-syntax-highlighting"
-# git clone https://github.com/niavlys34/dotfiles.git "$HOME/dotfiles"
+# git clone https://github.com/niavlys34/dotfiles.git "$HOME/.dotfiles"
 # ln -s $HOME/.dotfiles/zshrc_commun.zsh $HOME/.zshrc
 
 # si il n'existe pas encore,
